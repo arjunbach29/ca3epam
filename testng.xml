@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/java epam/ca3epam/src/test/java/org/example/mailtesting.java">
+        <parameter name="Browser" value="chrome"></parameter>
+        <parameter name="Url" value="https://accounts.google.com/"></parameter>
+<!--        <parameter name="Browser" value="edge"></parameter>-->
+<!--        <parameter name="Url" value="https://accounts.google.com/"></parameter>-->
+        <classes>
+            <class name="org.example.mailtesting">
+                <methods>
+                    <include name="accessmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
